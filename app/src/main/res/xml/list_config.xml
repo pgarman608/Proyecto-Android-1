@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/txtcolorpc"
+        android:title="Lista de imagenes">
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/preferencias"
+            android:entryValues="@array/preferencias"
+            android:key="numCol"
+            android:title="Numero de columnas"
+            android:layout="@layout/txtcolorlp"/>
+    </PreferenceCategory>
+</PreferenceScreen>
